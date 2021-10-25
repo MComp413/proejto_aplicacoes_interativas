@@ -25,13 +25,3 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Bard
     m_Texture: {fileID: 2800000, guid: ccc3b42f494387746a479e1f8de8d58d, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5387402560887192154
-      m_GuidHigh: 1518477583126729874
-    m_SerializedTextureGuid:
-      m_GuidLow: 9760506847965721647
-      m_GuidHigh: 10220330622205708138
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: Default-Checker-Gray
-    m_Texture: {fileID: 0}
