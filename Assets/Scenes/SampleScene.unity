@@ -383,6 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51774a91311ea6c4b83e26b2ede5bcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timer: 2
   trackedImageManager: {fileID: 388525036}
   _objectList:
   - {fileID: 1248299638}
