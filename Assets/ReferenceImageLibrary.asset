@@ -35,3 +35,63 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: dwarven_warrior_by_kevin_mic
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5518754227211758033
+      m_GuidHigh: 2271698645074790051
+    m_SerializedTextureGuid:
+      m_GuidLow: 16763711713002349929
+      m_GuidHigh: 10595381488018314443
+    m_Size: {x: 0.2970874, y: 0.3}
+    m_SpecifySize: 1
+    m_Name: elf_mage_by_nicoledelancret
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5197594459976276129
+      m_GuidHigh: 2342647780443663518
+    m_SerializedTextureGuid:
+      m_GuidLow: 5256928271912693960
+      m_GuidHigh: 8857933138032702155
+    m_Size: {x: 0.3, y: 0.3029412}
+    m_SpecifySize: 1
+    m_Name: old_man_staff_out
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5092677503422004120
+      m_GuidHigh: 11219947240362048139
+    m_SerializedTextureGuid:
+      m_GuidLow: 4851780647085716631
+      m_GuidHigh: 3066630491803451883
+    m_Size: {x: 0.3, y: 0.3029412}
+    m_SpecifySize: 1
+    m_Name: paladin_drinking_sword_out
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5522317006800779889
+      m_GuidHigh: 14348472978720540840
+    m_SerializedTextureGuid:
+      m_GuidLow: 16578997257226640303
+      m_GuidHigh: 2634642652724634907
+    m_Size: {x: 0.3, y: 0.3029412}
+    m_SpecifySize: 1
+    m_Name: winged_guardian_walking
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4652315931818289026
+      m_GuidHigh: 15398037087032154804
+    m_SerializedTextureGuid:
+      m_GuidLow: 7522193123130108511
+      m_GuidHigh: 8636807750727263593
+    m_Size: {x: 0.3, y: 0.3029412}
+    m_SpecifySize: 1
+    m_Name: tiefling_swashbuckler_swords_out
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5355967953012781073
+      m_GuidHigh: 2424743793454227123
+    m_SerializedTextureGuid:
+      m_GuidLow: 1203669875295255761
+      m_GuidHigh: 1694613805762694521
+    m_Size: {x: 0.3, y: 0.3029412}
+    m_SpecifySize: 1
+    m_Name: undead_human
+    m_Texture: {fileID: 0}
