@@ -23,7 +23,7 @@ MonoBehaviour:
       m_GuidHigh: 10220330622205708138
     m_Size: {x: 0.3, y: 0.3}
     m_SpecifySize: 1
-    m_Name: bard
+    m_Name: assassin_crossbow_ready
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4918859829991982266
@@ -33,5 +33,5 @@ MonoBehaviour:
       m_GuidHigh: 2974585091387352265
     m_Size: {x: 0.3, y: 0.3}
     m_SpecifySize: 1
-    m_Name: wizard
+    m_Name: dwarven_warrior_by_kevin_mic
     m_Texture: {fileID: 0}
