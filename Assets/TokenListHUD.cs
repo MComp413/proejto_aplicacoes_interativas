@@ -5,10 +5,9 @@ using UnityEngine.UI;
 
 public class TokenListHUD : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> iconOptions;
-    [SerializeField] private List<GameObject> aoeOptions;
+    [SerializeField] private List<Sprite> iconOptions;
+    [SerializeField] private List<string> aoeOptions;
     [SerializeField] private GameObject tokenItemPrefab;
-    private List<GameObject> tokenItemsRefList;
     private Dictionary<GameObject, GameObject> iconToAoeMap;
     // Start is called before the first frame update
     void Start()
@@ -24,11 +23,18 @@ public class TokenListHUD : MonoBehaviour
 
     void LoadIcons()
     {
+      var parentRef = gameObject.transform.GetChild(0).GetChild(0);
+      int optionsCount = 0;
       foreach (var iconOption in iconOptions)
       {
-        var itemRef = Instantiate(tokenItemPrefab);
-        itemRef.icon = iconOption;
-        tokenItemsRefList.push(itemRef);
+        GameObject tokenItem = Instantiate<GameObject>(tokenItemPrefab, transform);
+        tokenItem.transform.position += new Vector3(0, -100) * optionsCount;
+        tokenItem.transform.GetChild(0).GetComponent<Image>().sprite = iconOption;
+        var dropdown = tokenItem.transform.GetChild(0).GetComponent<Dropdown>();
+        //dropdown.ClearOptions();
+        //dropdown.AddOptions(aoeOptions);
+        tokenItem.transform.SetParent(parentRef);
+        optionsCount++;
       }
     }
 }

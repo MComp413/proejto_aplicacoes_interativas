@@ -120,8 +120,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7918087392037519146}
   m_HandleRect: {fileID: 2842495726446980245}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 1
+  m_Value: 0.5
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -282,8 +282,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2761463011283612391}
   m_HandleRect: {fileID: 3257623354496197149}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 0.10437955
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -560,7 +560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 283.91168}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &8296403971425107671
@@ -721,3 +721,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda2d4543c73c42429bcad8824fcbd56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconOptions:
+  - {fileID: 21300000, guid: ccc3b42f494387746a479e1f8de8d58d, type: 3}
+  - {fileID: 21300000, guid: 6f6d450fa83ebdb4c9e4506e61d94729, type: 3}
+  aoeOptions:
+  - 1
+  - 2
+  - 3
+  - 4
+  tokenItemPrefab: {fileID: 261492148623588121, guid: a914a76d2a4589047990379cd5ae3fb5,
+    type: 3}

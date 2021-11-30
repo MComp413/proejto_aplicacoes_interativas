@@ -5,15 +5,14 @@ using UnityEngine.UI;
 
 public class TokenItemHUD : MonoBehaviour
 {
-  public GameObject image;
   public GameObject selectedOption;
-  public List<GameObject> aoeOptions;
 
   // Start is called before the first frame update
   void Start()
   {
-    gameObject.GetComponent<Image>().sprite = image;
-    gameObject.GetComponent<Dropdown>().onValueChanged.AddListener(this.HandleChange);
+    gameObject.GetComponent<Dropdown>().onValueChanged.AddListener((int value_idx) => {
+      HandleChange(value_idx);
+    });
   }
 
   // Update is called once per frame
@@ -21,9 +20,8 @@ public class TokenItemHUD : MonoBehaviour
   {
   }
 
-  void HandleChange(Dropdown target)
+  void HandleChange(int value_idx)
   {
-    selectedOption = target.value;
-    Debug.Log(selectedOption);
+    Debug.Log(value_idx);
   }
 }
