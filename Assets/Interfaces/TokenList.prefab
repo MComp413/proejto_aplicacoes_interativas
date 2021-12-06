@@ -120,8 +120,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7918087392037519146}
   m_HandleRect: {fileID: 2842495726446980245}
   m_Direction: 0
-  m_Value: 0.5
-  m_Size: 0
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -282,8 +282,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2761463011283612391}
   m_HandleRect: {fileID: 3257623354496197149}
   m_Direction: 2
-  m_Value: 0.10437955
-  m_Size: 0
+  m_Value: -0.00091552734
+  m_Size: 0.98230654
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -560,7 +560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 283.91168}
+  m_AnchoredPosition: {x: 0, y: 2.0018346}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &8296403971425107671
@@ -725,9 +725,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ccc3b42f494387746a479e1f8de8d58d, type: 3}
   - {fileID: 21300000, guid: 6f6d450fa83ebdb4c9e4506e61d94729, type: 3}
   aoeOptions:
-  - 1
-  - 2
-  - 3
-  - 4
+  - a
+  - b
+  - c
+  - d
   tokenItemPrefab: {fileID: 261492148623588121, guid: a914a76d2a4589047990379cd5ae3fb5,
+    type: 3}
+  buttonPrefab: {fileID: 6403430971816021857, guid: 135f0a9e2476d664bb7371837f4d2849,
     type: 3}

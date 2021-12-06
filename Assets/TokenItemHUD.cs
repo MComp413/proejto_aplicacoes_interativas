@@ -10,9 +10,9 @@ public class TokenItemHUD : MonoBehaviour
   // Start is called before the first frame update
   void Start()
   {
-    gameObject.GetComponent<Dropdown>().onValueChanged.AddListener((int value_idx) => {
-      HandleChange(value_idx);
-    });
+    // gameObject.GetComponent<Dropdown>().onValueChanged.AddListener((int value_idx) => {
+    //   HandleChange(value_idx);
+    // });
   }
 
   // Update is called once per frame
@@ -20,8 +20,8 @@ public class TokenItemHUD : MonoBehaviour
   {
   }
 
-  void HandleChange(int value_idx)
-  {
-    Debug.Log(value_idx);
-  }
+  // void HandleChange(int value_idx)
+  // {
+  //   Debug.Log(value_idx);
+  // }
 }
