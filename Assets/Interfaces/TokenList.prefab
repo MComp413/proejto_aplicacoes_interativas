@@ -723,12 +723,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconOptions:
   - {fileID: 21300000, guid: ccc3b42f494387746a479e1f8de8d58d, type: 3}
+  - {fileID: 21300000, guid: 2a8f6569aafce8a4cbd4149d535b0a93, type: 3}
+  - {fileID: 21300000, guid: 311070c85c6948f4cbb299f841b3ed7a, type: 3}
+  - {fileID: 21300000, guid: eda8b497fcca4354eb8153412fdc8e2a, type: 3}
+  - {fileID: 21300000, guid: 892b5baf6e2ae6141ba5bea188219024, type: 3}
+  - {fileID: 21300000, guid: 8c0e6a5f32ca6864696570b7e31adc77, type: 3}
+  - {fileID: 21300000, guid: cfcffcd14b5f10b4794df523477a8417, type: 3}
   - {fileID: 21300000, guid: 6f6d450fa83ebdb4c9e4506e61d94729, type: 3}
   aoeOptions:
-  - a
-  - b
-  - c
-  - d
+  - Nenhum
+  - 5 feet circle
+  - 10 feet circle
+  - 10 feet cube
+  - 15 feet cone
+  - 15 feet circle
+  - 15 feet cube
+  - 20 feet circle
+  - 30 feet cone
   tokenItemPrefab: {fileID: 261492148623588121, guid: a914a76d2a4589047990379cd5ae3fb5,
     type: 3}
   buttonPrefab: {fileID: 6403430971816021857, guid: 135f0a9e2476d664bb7371837f4d2849,
