@@ -49,7 +49,7 @@ public class TokenListHUD : MonoBehaviour
       var parentRef = gameObject.transform.GetChild(0).GetChild(0);
       GameObject closeButton = Instantiate(buttonPrefab, transform);
       closeButton.transform.GetChild(0).GetComponent<Text>().text = "Close";
-      closeButton.transform.position = new Vector3(80, -15);
+      closeButton.transform.position = new Vector3(160, -30);
       closeButton.transform.SetParent(parentRef);
       Button buttonRef = closeButton.GetComponent<Button>();
       buttonRef.onClick.AddListener(() => {
@@ -61,8 +61,8 @@ public class TokenListHUD : MonoBehaviour
     {
       var parentRef = gameObject.transform.GetChild(0).GetChild(0);
       int optionsCount = 0;
-      var positionVector = new Vector3(160, -100);
-      var offsetVector = new Vector3(0, -100);
+      var positionVector = new Vector3(320, -200);
+      var offsetVector = new Vector3(0, -200);
       for(int characterIndex = 0; characterIndex < characterCount; ++characterIndex)
       {
         var iconOption = iconOptions[characterIndex];

@@ -1,8 +1,0 @@
-18321aaaaf754e77b60d7c82823df294|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\Bard.jpg|0.3
-429c44ba4cf44443b5b2189eea4bb60a|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\S_fNVsTm3HXGufZ_6JPi_ZuN22DgKNXl6t_u-HuepiU.png|0.3
-e3a469d18dba4c96a3466bb8e1b1861f|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\image1.jpg|0.297087
-916c98a1909f48219eac3393bec18220|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\image2.jpg|0.3
-0b177b98d33546ac8b7a67bc9142b59b|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\image3.jpg|0.3
-27757a71360f4ca3a8c8ed15270420c7|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\image4.jpg|0.3
-e2eb678258b04090b49ad7fa25d1b0d5|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\image5.jpg|0.3
-e3b3f01138794a54b31e2c20a26ba621|D:\Documentos\POLI\App Interativas\Projeto\proejto_aplicacoes_interativas\Assets\Icons\image6.jpg|0.3
